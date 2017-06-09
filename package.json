@@ -1,0 +1,27 @@
+{
+  "name": "xhrjs",
+  "version": "1.0.0",
+  "description": "Probando XMHttpRequest con JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NohemiBarrera/xhr-js-jquery.git"
+  },
+  "keywords": [
+    "js",
+    "xhr",
+    "json"
+  ],
+  "author": "Nohemi Barrera <nohemi.baol@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NohemiBarrera/xhr-js-jquery/issues"
+  },
+  "homepage": "https://github.com/NohemiBarrera/xhr-js-jquery#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
