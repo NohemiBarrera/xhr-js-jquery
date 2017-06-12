@@ -1,6 +1,6 @@
 
 
-var plantillaPokes = '<div data-url="**url**" data-img="**imgPokes**" class="miau card">' +
+var plantillaPokes = '<div data-url="**url**" data-img="**imgPokes**" class="miau card col s4">' +
 		'<a href="#modalPokes">' +
 			'<img src="**direccionImg**"">' +
 			'<span>**nombrePoke**</span>' +
@@ -66,7 +66,7 @@ var crearPokemons = function(pokemons){
 		.replace("**url**", pokemon.url)
 		.replace("**imgPokes**", imagenes[z]);
 	});
-	//$('#pokedex').html(plantillaFinal);
+	$('#pokedex').html(plantillaFinal);
 };
 
 
